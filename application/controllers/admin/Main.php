@@ -6,7 +6,7 @@ class Main extends CI_Controller {
 
     public function index(){
 
-        echo 'admin';
+        $this->load->view('backend/main');
 
     }
 
